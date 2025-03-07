@@ -1,0 +1,137 @@
+.contaner{
+    width: 100%;
+    height: 100vh;
+    border: 1px solid black;
+    background-color: #f8f9fb;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.finance{
+    width: 100%;
+    max-width: 920px;
+    height: 300px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.senior1{
+    display: flex;
+}
+.finance1{
+    width: 100%;
+    max-width: 700px;
+    height: 180px;
+    border-bottom: 1px solid black;
+    margin-left: 20px;
+}
+.senior{
+    font-size: 23px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+.img{
+    width: 100%;
+    max-width: 220px;
+    height: 180px;
+    margin-right: 20px;
+    border-bottom: 1px solid black;
+}
+.unacademy{
+    font-size: 20px;
+    color: #949590;
+}
+.unacademy a{
+    color: #fba230;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.unacademy a a{
+    color: #8d929b;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.unacademy a a{
+    color: #9c9caa;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.year{
+    font-size: 19px;
+    padding-top: 30px;
+    color: #abadb4;
+}
+.year a{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    text-align: center;
+}
+.year a a{
+    padding-left: 35px;
+}
+.year a a a{
+    padding-left: 25px;
+}
+.year a a a a{
+    padding-left: 10px;
+}
+.location{
+    font-size: 19px;
+    padding-top: 5px;
+    color: #abadb4;
+}
+.location a{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    text-align: center;
+}
+.img img{
+    width: 100%;
+    max-width: 90px;
+    border: 1px solid #ebeaed;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 120px;
+}
+.send{
+    font-size: 20px;
+    padding-top: 10px;
+    color:#6a89e5 ;
+    font-weight: bold;
+}
+.box{
+    display: flex;
+}
+.post{
+    display: flex;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+.post a{
+    padding-left: 10px;
+}
+.post a a{
+    padding-left: 10px;
+}
+.register{
+    width: 100%;
+    max-width: 180px;
+    border: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 40px;
+    margin-left: 40px;
+}
+.login{
+    width: 100%;
+    max-width: 150px;
+    border: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    border-radius: 40px;
+}
