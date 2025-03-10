@@ -7,7 +7,8 @@ import { SlLocationPin } from "react-icons/sl";
 const Freshers=()=>{
     return(
         <div className="contaner">
-            <div className="finance">
+            <div className="left">
+                <div className="finance">
                 <div className="senior1">
                     <div className="finance1">
                         <div className="senior">Senior Finance Executive Revenue To Record CA Freshers</div>
@@ -25,6 +26,8 @@ const Freshers=()=>{
                     <div className="register">Register to apply</div>
                     <div className="login">Login to apply</div>
                 </div>
+                </div>
+                <div className="job"></div>
             </div>
         </div>
     )
