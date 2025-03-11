@@ -8,26 +8,34 @@ const Freshers=()=>{
     return(
         <div className="contaner">
             <div className="left">
-                <div className="finance">
-                <div className="senior1">
-                    <div className="finance1">
-                        <div className="senior">Senior Finance Executive Revenue To Record CA Freshers</div>
-                        <div className="unacademy">Unacademy <a><FaStar /><a>3.0<a>1945 Reviews</a></a></a></div>
-                        <div className="year"><IoCalendarClearOutline /><a>0 - 2 years<a>|<a>₹<a>Not Disclosed</a></a></a></a></div>
-                        <div className="location"><SlLocationPin /><a>Bengaluru</a></div>
+                <div className="senior">
+                    <div className="senior1">
+                        <div className="finance">
+                            <div className="record">Senior Finance Executive Revenue To Record CA Freshers</div>
+                            <div className="academy">Unacademy <a><FaStar /></a><lable>3.0  |  1945 Reviews</lable></div>
+                            <div className="years"><label><IoCalendarClearOutline/></label> 0 - 2 years <a>|</a><a> ₹ Not Disclosed</a></div>
+                            <div className="location"><SlLocationPin /> Bengaluru</div>
+                        </div>
+                        <div className="img">
+                            <div className="img1">
+                                <img src="https://play-lh.googleusercontent.com/DT0jm91vA_rOkxwatXhI4yVpjU4KI0augje6ZJGYxEyNjKvIhcQt8npiLHf5-ydclsqe" alt="logo" />
+                            </div>
+                            <div className="send">Send me jobs like this</div>
+                        </div>
                     </div>
-                    <div className="img">
-                        <img src="https://play-lh.googleusercontent.com/DT0jm91vA_rOkxwatXhI4yVpjU4KI0augje6ZJGYxEyNjKvIhcQt8npiLHf5-ydclsqe"/>
-                        <div className="send">Send me jobs like this</div>
+                    <div className="post">
+                        <div className="post1">
+                            <div className="days">Posted: <b>17 days ago</b>  Openings: <b>2</b>  Application: <b>884</b></div>
+                            <div className="rigister"></div>
+                            <div className="login">Login to apply</div>
+                        </div>
                     </div>
                 </div>
-                <div className="box">
-                    <div className="post">Posted: <b>17 days ago</b> <a>|<a>Openings: <b>2 </b>|<a>Applicants:<b>884</b></a></a></a></div>
-                    <div className="register">Register to apply</div>
-                    <div className="login">Login to apply</div>
-                </div>
-                </div>
-                <div className="job"></div>
+                <div className="description"></div>
+            </div>
+            <div className="right">
+                <div className="unacademy"></div>
+                <div className="review"></div>
             </div>
         </div>
     )

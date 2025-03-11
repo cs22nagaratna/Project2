@@ -2,140 +2,166 @@
     width: 100%;
     height: 100vh;
     border: 1px solid black;
-    background-color: #f8f9fb;
     display: flex;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
 }
 .left{
     width: 100%;
-    max-width: 1000px;
-    border: 1px solid blue;
+    max-width: 1100px;
+}
+.senior{
+    width: 100%;
+    max-width: 1100px;
+}
+.senior1{
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
 }
 .finance{
     width: 100%;
-    max-width: 920px;
-    height: 300px;
-    background-color: #ffffff;
-    border-radius: 20px;
-}
-.senior1{
-    display: flex;
-}
-.finance1{
-    width: 100%;
-    max-width: 700px;
-    height: 180px;
-    border-bottom: 1px solid black;
+    max-width: 770px;
     margin-left: 20px;
 }
-.senior{
-    font-size: 23px;
-    padding-top: 20px;
+
+
+
+
+.record{
+    font-size: 26px;
     font-weight: bold;
+    padding-top: 20px;
 }
-.img{
-    width: 100%;
-    max-width: 220px;
-    height: 180px;
-    margin-right: 20px;
-    border-bottom: 1px solid black;
+.academy{
+    font-size: 22px;
+    padding-top: 5px;
 }
-.unacademy{
+.academy a{
+    color: gold;
+    padding-left: 15px;
+    font-size: 22px;
+}
+.academy lable{
     font-size: 20px;
-    color: #949590;
 }
-.unacademy a{
-    color: #fba230;
-    padding-left: 10px;
-    padding-top: 10px;
+.years{
+    padding-top: 25px;
+    font-size: 22px;
 }
-.unacademy a a{
-    color: #8d929b;
-    padding-left: 20px;
-    padding-top: 10px;
-}
-.unacademy a a{
-    color: #9c9caa;
-    padding-left: 20px;
-    padding-top: 10px;
-}
-.year{
+.years label{
     font-size: 19px;
-    padding-top: 30px;
-    color: #abadb4;
 }
-.year a{
-    font-size: 20px;
-    padding-top: 10px;
-    padding-left: 10px;
-    text-align: center;
-}
-.year a a{
-    padding-left: 35px;
-}
-.year a a a{
-    padding-left: 25px;
-}
-.year a a a a{
-    padding-left: 10px;
+.years a{
+    padding-left: 20px;
 }
 .location{
-    font-size: 19px;
-    padding-top: 5px;
-    color: #abadb4;
+    padding-top: 8px;
+    font-size: 22px;
 }
-.location a{
-    font-size: 20px;
-    padding-top: 10px;
-    padding-left: 10px;
-    text-align: center;
-}
-.img img{
+
+
+
+.img{
     width: 100%;
-    max-width: 90px;
-    border: 1px solid #ebeaed;
+    max-width: 270px;
+    margin-right: 20px;
+}
+.img1{
+    width: 100%;
+    max-width: 330px;
+    justify-content: space-around;
+    display: flex;
+}
+.img1 img{
+    width: 100%;
+    max-width: 100px;
+    margin-top: 20px;
+    border: 1px solid black;
     border-radius: 20px;
-    margin-top: 30px;
-    margin-left: 120px;
 }
 .send{
-    font-size: 20px;
-    padding-top: 10px;
-    color:#6a89e5 ;
+    font-size: 22px;
     font-weight: bold;
+    padding-top: 15px;
+    color: blue;
 }
-.box{
-    display: flex;
-}
+
+
+
+
 .post{
-    display: flex;
-    font-size: 20px;
-    padding-left: 20px;
-    padding-top: 40px;
-}
-.post a{
-    padding-left: 10px;
-}
-.post a a{
-    padding-left: 10px;
-}
-.register{
     width: 100%;
-    max-width: 180px;
-    border: 1px solid black;
-    font-size: 20px;
-    text-align: center;
+    max-width: 1100px;
+    display: flex;
     margin-top: 10px;
+}
+.post1{
+    width: 100%;
+    max-width: 1040px;
+    margin-left: 20px;
+    display: flex;
+    margin-right: 20px;
+    border-top: 1px solid black;
+}
+.days{
+    font-size: 22px;
+    font-weight: normal;
+    display: flex;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.rigister{
+    width: 100%;
+    max-width: 230px;
+    margin-left: 70px;
+    margin-bottom: 20px;
     border-radius: 40px;
-    margin-left: 40px;
+    margin-top: 20px;
+    border: 1px solid black;
 }
 .login{
     width: 100%;
-    max-width: 150px;
-    border: 1px solid black;
-    font-size: 20px;
-    text-align: center;
-    justify-content: space-around;
-    margin-top: 10px;
+    max-width: 200px;
+    margin-left: 30px;
+    margin-bottom: 20px;
     border-radius: 40px;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+
+
+
+.description{
+    width: 100%;
+    max-width: 1060px;
+    margin-right: 100px;
+    height: 750px;
+    border: 1px solid rgb(227, 49, 49);
+}
+
+
+
+
+
+
+
+
+
+
+.right{
+    width: 100%;
+    max-width: 700px;
+    border: 1px solid black;
+}
+.unacademy{
+    width: 100%;
+    max-width: 700px;
+    height: 750px;
+    border: 1px solid black;
+}
+.review{
+    width: 100%;
+    max-width: 700px;
+    height: 300px;
+    border: 1px solid black;
 }
